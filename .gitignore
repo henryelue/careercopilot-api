@@ -1,0 +1,19 @@
+# --- Frontend ---
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/venv/
+
+# Environment & Secrets
+.env
+.env.local
+.env.production
+.firebase/
+
+# Build Outputs
+dist/
+frontend/dist/
+
+# Python junk
+__pycache__/
+*.pyc

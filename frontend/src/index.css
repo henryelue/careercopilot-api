@@ -1,0 +1,32 @@
+/* App.css additions */
+
+.logo-text { font-weight: 800; letter-spacing: -0.02em; font-size: 1.1rem; }
+.logo-subtext { color: #9ca3af; font-weight: 300; margin-left: 4px; }
+
+.header-nav { display: flex; gap: 32px; }
+.nav-item { background: none; border: none; font-size: 13px; font-weight: 600; color: #6b7280; cursor: pointer; padding-bottom: 20px; border-bottom: 2px solid transparent; transition: all 0.2s; }
+.nav-item.active { color: #000; border-bottom-color: #000; }
+
+.document-sheet { 
+  width: 100%; 
+  max-width: 800px; 
+  background: white; 
+  padding: 60px; 
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); 
+  min-height: 1000px; 
+}
+
+.letter-content { font-family: 'Georgia', serif; font-size: 18px; line-height: 1.7; color: #374151; white-space: pre-wrap; }
+
+.empty-state { height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; opacity: 0.2; }
+.empty-title { font-family: 'Georgia', serif; font-size: 2rem; font-style:italic; margin-bottom: 12px; }
+.empty-subtitle { font-size: 10px; font-weight: 700; letter-spacing: 0.2em; }
+
+.insight-header { font-size: 10px; font-weight: 800; text-transform: uppercase; color: #9ca3af; margin-bottom: 32px; letter-spacing: 0.1em; }
+.score-value { font-size: 42px; font-weight: 200; }
+.score-bar { height: 2px; background: #e5e7eb; margin-top: 12px; }
+.score-fill { height: 100%; background: #000; }
+.gap-list { list-style: none; padding: 0; margin-top: 16px; }
+.gap-item { font-size: 13px; border-left: 2px solid #e5e7eb; padding-left: 12px; margin-bottom: 12px; color: #4b5563; }
+.insight-advice-box { background: #f9fafb; padding: 20px; border: 1px solid #f3f4f6; margin-top: 40px; }
+.advice-text { font-size: 13px; font-style: italic; line-height: 1.5; color: #374151; }

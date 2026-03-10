@@ -18,7 +18,7 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["https://careercopilot-ai-441e6.web.app"],
     allow_methods=["*"],
     allow_headers=["*"],
 )
